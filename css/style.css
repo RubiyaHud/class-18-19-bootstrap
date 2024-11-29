@@ -1,0 +1,147 @@
+/* All Common CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Inter", serif;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All Common CSS End */
+
+
+/* Header Part Start */
+.navbar{
+    /* background: teal;
+    padding: 20px 0; */
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-link{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+
+    /* padding is not applicable here, coz parent div has already used it */
+    margin: 0 15px;
+}
+.nav-link:hover{
+    color: #4756DF;
+}
+.contactBtn{
+    padding: 15px 42px;
+    background: #6A4DF4;
+    border-radius: 10px;
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Header Part End */
+
+/* Banner Part Start */
+#bannerPart{
+    background: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.bannerOverlay{
+    background: rgba(0, 0, 0, 0.62);
+    padding-top: 330px;
+    padding-bottom: 175px;
+}
+.bannerContent h1{
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 120%;
+    padding-bottom: 60px;
+}
+
+.bannerContent p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 216px;
+    margin-bottom: 40px;
+}
+
+.bannerContent a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffff;
+
+    border-radius: 10px;
+    background: #6A4DF4;
+    padding: 15px 42px;
+}
+/* Banner Part End */
+
+
+/* Counter Part Start */
+#counterPart{
+    padding-top: 165px;
+    padding-bottom: 80px;
+}
+.counterBg{
+    background: #E0FFF9;
+    border-radius: 20px;
+    padding: 85px 0;
+}
+.counterItemLeft{
+    padding-left: 20px;
+    
+}
+.counterItemLeft h4{
+    color: #6A4DF4;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 25px;
+}
+
+.counterItemLeft h3{
+    color: #151515;
+    font-size: 35px;
+    font-weight: 600;
+    padding-right: 135px;
+    line-height: 37px;
+}
+.counterItemRight{
+    padding-top: 10px;
+}
+.counterItemRight h3{
+    color: #151515;
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 35px;
+}
+.counterItemRight p{
+    color: #737373;
+    font-size: 20px;
+    font-weight: 500;
+}
+/* Counter Part End */
+
+
+/* Header Part Start */
+/* Header Part End */
+/* Header Part Start */
+/* Header Part End */
+/* Header Part Start */
+/* Header Part End */
+
+
+
